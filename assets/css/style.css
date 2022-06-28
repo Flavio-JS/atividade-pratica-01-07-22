@@ -1,0 +1,152 @@
+:root {
+  --azul-marinho: #003366;
+  --azul-celeste: #1398be;
+  --laranja: #de9800;
+  --vermelho: #c91b04;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: Arial;
+}
+
+.container {
+  border: 1px #ddd solid;
+  border-collapse: collapse;
+}
+
+table {
+  border: 1px #ddd solid;
+  border-collapse: collapse;
+  min-width: 100%;
+}
+
+td {
+  height: 25px;
+}
+
+.position {
+  text-align: center;
+  width: 30px;
+  border-right: 0;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.names {
+  border-left: 0;
+  font-size: 14px;
+  color: #666;
+  text-align: left;
+  font-weight: bold;
+}
+
+.stats {
+  text-align: center;
+  width: 30px;
+  font-size: 14px;
+  color: #666;
+}
+
+.first-third {
+  color: var(--azul-marinho);
+}
+
+.fourth {
+  color: var(--azul-celeste);
+}
+
+.fifth-twelfth {
+  color: var(--laranja);
+}
+
+.thirteenth-sixteenth {
+  color: #ccc;
+}
+
+.seventeenth-twentieth {
+  color: var(--vermelho);
+}
+
+.points {
+  font-size: 14px;
+  color: #000;
+  font-weight: bold;
+}
+
+.top {
+  border: 0;
+  border-bottom: 1px #ddd solid;
+  font-size: 13px;
+  color: #999;
+  font-weight: bold;
+}
+
+.legendas {
+  font-size: 10px;
+  color: #8f8f8f;
+  text-align: left;
+}
+
+.siglas {
+  color: #555;
+  margin-left: 8px;
+  margin-right: 55px;
+  margin-bottom: 8px;
+}
+
+.even-column {
+  background-color: #f7f7f7;
+}
+
+.percentage {
+  width: 40px;
+}
+
+.sixteenth-border,
+.fourth-border {
+  border-bottom: 2px solid #ccc;
+}
+
+.legenda-classification-container {
+  display: flex;
+  margin-bottom: 3px;
+}
+
+.legenda-classification {
+  display: flex;
+  align-items: center;
+  margin-left: 8px;
+  margin-top: 8px;
+}
+
+.color {
+  height: 8px;
+  width: 8px;
+  border-radius: 2px;
+  margin-right: 5px;
+}
+
+.azul-marinho {
+  background-color: var(--azul-marinho);
+}
+
+.azul-celeste {
+  background-color: var(--azul-celeste);
+}
+
+.laranja {
+  background-color: var(--laranja);
+}
+
+.vermelho {
+  background-color: var(--vermelho);
+}
